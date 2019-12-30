@@ -1,0 +1,3 @@
+main: io.github.ktasra.CrystalShortcut
+name: CrystalShortcut
+version: ${project.version}
