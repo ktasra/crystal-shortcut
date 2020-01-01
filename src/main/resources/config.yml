@@ -1,0 +1,14 @@
+#Please write in UTF-8
+#Format: [alias: command to execute]
+#The entered alias is registered in the command list
+commands:
+  wl: control world list
+  al: give @a apple
+
+#Format: [alias: argument]
+#Input can be used as argument
+arguments:
+  l: list
+  conf: config
+  rl: reload
+  cr: config reload

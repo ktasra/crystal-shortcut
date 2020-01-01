@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.ktasra</groupId>
 	<artifactId>crystal-shortcut</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<build>
 		<plugins>
 			<plugin>
@@ -41,6 +41,9 @@
 						<phase>package</phase>
 						<configuration>
 							<tasks>
+								<copy
+									file="${project.build.directory}\${project.build.finalName}.jar"
+									tofile="C:\Archives\Projects\CrystalShortcut\${project.build.finalName}.jar" />
 								<copy
 									file="${project.build.directory}\${project.build.finalName}.jar"
 									tofile="C:\Servers\test1.8.8\plugins\${project.build.finalName}.jar" />

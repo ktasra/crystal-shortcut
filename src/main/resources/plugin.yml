@@ -1,3 +1,10 @@
 main: io.github.ktasra.CrystalShortcut
 name: CrystalShortcut
 version: ${project.version}
+
+commands:
+  shortcut:
+    aliases: sc
+    description: Control this plugin settings
+    usage: /<command> [config] operation
+  
